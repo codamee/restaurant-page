@@ -4,6 +4,79 @@
     box-sizing: border-box;
 }
 
-.menu-bg {
-    background-color: rgb(0, 255, 0);
+.menuContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px;
+    background-image: url("../../assets/rieracanler-grill-8225405.jpg");
+    /* background-color: rgb(0, 255, 89); */
+    background-size: contain;
+}
+
+.itemContainer {
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.614);
+    backdrop-filter: blur(20px);
+    width: 100%;
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 20px;
+    flex-direction: column;
+    color: rgb(198, 198, 198);
+}
+
+.itemContainer p {
+    font-size: 25px;
+    font-weight: bolder;
+    /* margin: 0px 10px; */
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.card {
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    /* padding: 10px; */
+    color: rgb(216, 216, 216);
+}
+
+.card img {
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.card .itemInfo {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+}
+
+.itemInfo .name {
+    font-weight: 700;
+}
+
+.itemInfo .price {
+    color: rgb(0, 218, 0);
+    font-weight: 700;
 }

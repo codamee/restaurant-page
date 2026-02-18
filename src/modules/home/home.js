@@ -4,7 +4,7 @@ function home() {
     const contentDiv = document.querySelector("#content")
     contentDiv.innerHTML = ""
     let divElem = document.createElement("div")
-    divElem.classList.add("container")
+    divElem.classList.add("homeContainer")
     divElem.innerHTML = /* html */
         `
     <div class="homeinfo">

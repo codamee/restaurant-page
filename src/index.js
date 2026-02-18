@@ -5,17 +5,19 @@ import { about } from "./modules/about/about.js"
 import { menu } from "./modules/menu/menu.js"
 
 const nav = document.querySelector("nav")
-home()
+menu()
 nav.addEventListener("click", (e) => {
-    if (e.target.id === "home") {
+    const elem=e.target
+    if (elem.id === "home") {
         home()
-    } else if (e.target.id === "contact") {
+    } else if (elem.id === "contact") {
+   
         contact()
     }
-    else if (e.target.id === "about") {
+    else if (elem.id === "about") {
         about()
     }
-    else if (e.target.id==="menu") {
+    else if (elem.id ==="menu") {
         menu()
     }
 })
