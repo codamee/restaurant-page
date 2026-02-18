@@ -11,7 +11,8 @@ export default {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: "./src/template.html"
+            template: "./src/template.html",
+            favicon: './src/assets/flexoboss-m-9139533.png'
         })
     ],
     devtool: "eval-source-map",
