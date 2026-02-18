@@ -1,9 +1,61 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
+} */
+.container{
     box-sizing: border-box;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    /* background-color: red; */
+    background-image: url("../../assets/rieracanler-grill-8225405.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
-
-.home-bg {
-    background-color: red;
+.homeinfo{
+    background-color: rgba(255, 255, 255, 0.823); 
+    backdrop-filter: blur(10px);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border-radius:10px;
+}
+.homeinfo img{
+    width: 30rem;
+}
+.homeinfo h1{
+    font-size: 60px;
+}
+.homeinfo span{
+ font-weight: 900;
+ font-size: 20px;
+}
+.homeinfo>div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.homeinfo button{
+    width: 25%;
+    font-size: 18px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-weight: 600;
+   cursor: pointer;
+   transition: all .3s ease-in-out;
+}
+.homeinfo button:hover{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    box-shadow: 1px 1px 1px 1px black;
 }
