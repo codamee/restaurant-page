@@ -5,20 +5,18 @@
 .homeContainer{
     box-sizing: border-box;
     width: 100%;
-    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 100px;
-    /* background-color: red; */
     background-image: url("../../assets/rieracanler-grill-8225405.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
 }
 .homeinfo{
-    background-color: rgba(255, 255, 255, 0.823); 
-    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.815); 
+    backdrop-filter: blur(25px);
     background-size: cover;
     display: flex;
     justify-content: center;

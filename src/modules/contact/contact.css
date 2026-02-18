@@ -26,7 +26,7 @@
 }
 
 form {
-    background-color: rgba(246, 246, 246, 0.834);
+    background-color: rgb(255, 255, 255);
     /* backdrop-filter: blur(20px); */
     padding: 50px;
     display: flex;
