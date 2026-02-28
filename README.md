@@ -2,10 +2,11 @@
 
 A dynamic, single-page restaurant website built entirely with **JavaScript DOM manipulation** and bundled using **Webpack**. This project focuses on the "Separation of Concerns" by modularizing UI components.
 
-| Home Page | Menu Page |
+| Home | Menu |
 | :---: | :---: |
-| <img src="./src/assets/screenshot1.png" width="400"> | <img src="./src/assets/screenshot2.png" width="400"> |
-| <img src="./src/assets/screenshot3.png" width="400"> | <img src="./src/assets/screenshot4.png" width="400"> |
+| <img src="./src/assets/screenshot1.png" width="400" alt="Home Page"> | <img src="./src/assets/screenshot2.png" width="400" alt="Menu Page"> |
+| Contact | About |
+| <img src="./src/assets/screenshot3.png" width="400" alt="About Page"> | <img src="./src/assets/screenshot4.png" width="400" alt="Contact Page"> |
 
 ## 🚀 Live Demo
 [Explore the Restaurant Menu Here](https://codamee.github.io/restaurant-page/)
